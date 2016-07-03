@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background:#E6E6E6;
+}
+
+#wrapper{height:100%;width:85%;
+background:#fff;}
+#blank{
+	height:120px;
+	width:100%;
+}
+#login{
+	position:fixed;
+	top:80%;
+	right:3%;
+	height:15%;
+		width:8%;
+	//	border:2px solid #0080FF;
+		border:2px solid #CCC;
+		overflow:hidden;
+		border-radius:100%;
+		box-shadow:#CCC;
+		float:right;
+		position:fixed;	
+		background-color:#0080FF;	
+		transition:all 1s;
+}
+#login:hover
+{
+    height:15%;
+	width:8%;
+	box-shadow:3px 4px 4px rgba(0,0,0,0.6);
+	border:2px inset silver;
+	transform:scale(1.2,1.2);
+}
+#love
+{
+	height:35px;
+	width:35px;
+	position:fixed;
+	top:45px;
+	right:25px;
+}
+#love:hover
+{
+	transform:scale(1.2,1.2);
+	border-color:#FFF;
+}
+
+#company{height:30%;width:28%; position:fixed; top:10px; left:30px;float:left;}
+#companylogo{height:100%;width:30%;float:left;}
+#companyico{height:100%;width:70%;float:left;}
+#social{height:100px;width:100%;background:#0080FF;top:0px;text-align:center;
+position:fixed;}
+#smenu
+{height:10%;
+width:70%;
+position:fixed;
+top:40px;
+left:39%;
+float:left;;}
+#navigation{height:70px;width:800px;top:10px; left:10px;}
+
+ul{
+	color:#fff;
+	padding:8px;
+	margin:0px;
+    height:50px;
+
+}
+
+ul li{
+	float:Left;
+//	margin-top:10px;
+	list-style-type:none;
+	}
+ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+	padding:10px 25px 10px 25px;
+	margin-top:10px;
+	text-align:center;
+	font-style:normal;
+	font-family:"Comic Sans MS", cursive;
+	background:#0080FF;
+	}
+/*HOVERING OF THE MAIN MENU*/
+ul li a:hover 
+	{
+	color:black;
+	font-size:18px;
+	}
+
+/*PROPERTIES OF ICON IN THE MENU*/
+	.navicon{	
+	height:20px;
+	width:20px;
+	}
+	.img
+	{
+		color:black;
+		background:linear-gradient(#C90,#CF0);
+		border-radius:8px;
+	    background-color:#C90;
+		height:60px;
+		width:100px;
+		padding:10px 35px 10px 35px;
+	}
+	.img:hover
+	{
+		background-color:#006;
+	    color:white;
+		background:#006;
+	}
+	.contact
+	{
+		color:white;
+	}
+	
+	.rcontent
+{
+		height:100%;
+		width:90%;
+		}
+
+	
+#ads1{height:450px;width:70%;background:#CCC;float:left;}
+#ads2{height:450px;width:30%;float:right;background:url(images/cake.jpg); background-size:cover;}
+
+#maincontent{height:900px;width:100%;background:#fff;float:left;}
+#pimg
+{
+height:150px;
+width:150px;
+float:left;
+}
+.prodiv
+{
+        height:150px;
+		width:150px;
+        float:left;
+        background:rgba(0,0,0,0.2);
+		border-radius:5px;
+		border:2px solid #999;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px;
+		box-shadow:0px 2px 3px #FF9;
+		transition:all 0.4s;
+}
+.prodiv:hover{
+		cursor:pointer;
+		transform:scale(1.2,1.2);
+}
+.prodiv:active{
+		transform:scale(1.5,1.5);
+}
+.protext
+{
+	margin-top:105px;
+	    width:100%;
+		height:20%;	
+		border:0px;
+		padding:10px 5px 8px 5px;
+		color:white;
+		background:rgba(0,0,0,0.4);
+}
+#maincontent0{height:50px;width:20%;background:#fff;float:left;}
+#maincontent1{height:280px;width:100%;background:#fff;float:left;}
+#maincontent2{height:280px;width:100%;background:#fff;float:left;}
+#maincontent3{height:280px;width:100%;background:#fff;float:right;}
+
+
+#footer{height:200px;width:100%;background:#333;float:left;}
+#lfooter1{width:300px;float:left;align:left;}
+#lfooter2{width:400px;float:left;align:left;}
+#lfooter3{width:400px;float:left;align:left;}
+#Cfooter{height:50px;width:100%;background:#333;float:left;}
+ 
+ 
+ /*-- Contact  ---*/
+ 
+.register
+{
+		width:50%;
+		border:0px;
+		border-radius:5px;
+		padding:50px;
+		float:none;	
+}
+
+.text-sb
+{
+	color:#FFF;
+	}
+	
+	
+/*UPPER DIV OF REGISTER CONTAINER*/
+.info{
+		border-bottom:3px solid #E6E6E6;
+		padding:15px;
+		font-size:25px;
+		
+}
+
+
+.normal
+{
+		padding:10px 90px 10px 20px;
+}
+
+.gender{
+		padding:8px 45px 8px 12px;
+}
+
+.name{
+		padding:10px 12px 10px 13px;
+		
+}
+
+.small{
+		font-size:14px;
+}
+.comment
+{
+	height:200px;
+	width:400px;
+}
+
+button
+{
+	    border:0px;
+		border-radius:5px;
+		margin:4px;
+	    background:#0080FF;
+		padding:10px 35px 10px 35px;
+		font:"Comic Sans MS", cursive;
+		font-size:18px;
+
+}
+button:hover
+{
+	background:linear-gradient(#06C,#0080FF);
+	}
+
+/* My cart  */
+
+.cartadded
+{
+	height:20%;
+	width:80%;
+	padding:10px;
+	margin:10px;
+	border:2px solid #999;
+	border-radius:5px;
+}
+	
+/* Login Page */
+
+
+#signup
+{
+	width:50%;
+	float:left;
+	border-bottom-color:#fff;
+	border-right-color:#fff;
+	
+}

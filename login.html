@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>contactus</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="images/contact1.png" />
+<script type="text/javascript">
+function validata()
+{
+	var msg="";
+	if(f1.name.value=="")
+	{
+		msg=msg+"Name is Empty! ";
+	}
+	if(f1.mail.value=="")
+	{
+		msg=msg+"Mail adress is Empty! ";
+	}
+if(f1.number.value=="")
+	{
+		msg=msg+"Contact is Empty! ";
+		}
+alert(msg);
+}
+</script>
+</head>
+<body>
+<div id="social">
+<font class="contact" size="+1"><b>Welcome to Online Department Store.</b></font>
+<a href="https://www.facebook.com/?_rdr" target="_blank"><img src="images\twit.gif" height="30px" width="30px" align="right"></a><a href="https://www.twitter.com" target="_blank"> <img src="images/fb.gif" height="30px" width="30px" align="right"></a></div>
+<div id="smenu">
+<ul>
+				<li><a href="index.html"><img class="navicon" src="images/home.png"> Home</a></li>
+				<li><a href="#"><img class="navicon" src="images/gallery.png"> Our Products</a></li>
+                <li><a href="location.html"><img class="navicon" src="images/map.png"> Our Location</a></li>
+				<li><a href="contactus.html" class="contact"><img class="navicon" src="images/contact.png">Contact us</a></li>
+</ul>
+</div></div>
+<div id="company">
+<div id="companylogo">
+<a href="index.html"><img src="images\logo.gif" height="110px" width="170px" align="left"></a>
+</div>
+<div id="companyico">
+<img src="images\logo1.gif" height="110px" width="180px" align="right">
+</div>
+</div>
+<center>
+<div id="blank"></div>
+<div id="wrapper">
+
+<div id="signup">
+<center>
+<table cellpadding="2px">
+						<tr><td>
+                        Name:</td><td><input class="name" type="textbox" placeholder="First Name" name="name">&nbsp;<input class="name" type="textbox" placeholder="Last Name">
+                            </td></tr>
+							<tr><td>
+							I'm a:</td><td><select class="gender"><option>Male</option><option>Female</option><option>Other</option></select>
+                            </td></tr>
+						
+							<tr><td>
+							Email Address:</td><td><input class="normal" type="email" placeholder="example@abc.com" name="mail">
+                            </td></tr>
+							<tr><td>
+							Mobile no.:</td><td><input class="normal" type="number" placeholder="977#########" name="number">
+                            </td></tr>
+                            
+							</table>
+                            <br><br>
+                            <input type="checkbox"><span class="small">I agree the term & conditions and have read and agree to the terms of use.</span><br><br>
+                            <button class="text-sb" type="submit" onclick="validata()">Signup</button>
+                            </div>
+<div id="signup">
+<center>
+<table cellpadding="2px">
+					
+							<tr><td>
+							User Name:</td><td><input class="normal" type="email" placeholder="example@abc.com" name="mail">
+                            </td>
+                            </tr>
+                            <tr><td>
+                            Password:</td><td><input class="normal" type="password" placeholder="*********" name="pass" /></td>
+                            </tr>
+                        	</table>
+                            <br>
+                            <input type="checkbox"><span class="small">Remember Me</span><br><br>
+                            <button class="text-sb" type="submit" onclick="validata()">Login</button>
+</div>  
+
+</div>
+
+<div id="footer"><font color="white" size="+1">
+	<div id="lfooter1"><h4>Information</h4><br>
+    Our Stores<br>
+    Terms & Condtions<br>
+    About Us<br>
+    Privacy Policy
+    </div>
+    <div id="lfooter2">
+    <br><br>
+    <img class="navicon" src="images/profile4.png"> Cash On delivery<br><br>
+    <img class="navicon" src="images/contact.png"> Order By Phone<br><br>
+    <img class="navicon" src="images/registration.png"> Online Payment<br>
+     </div>
+ <div id="lfooter3">
+ <h4><img class="navicon" src="images/contact.png">Contact Informations</h4>
+ <ul class="contact">
+ <li>Stupa Store</li><br>
+ <li>Call us now: +977-9811111111</li>
+ <li>Office : 01-4444444</li><br>
+ <li>Viber : +977-9811111111</li><br>
+ <li>Email : sherpalakpa18@gmail.com</li>
+ </ul>
+ </div>
+ </div>
+<div id="Cfooter">Stupa Store &#169 2015, All rights reserved</div>
+<div id="login"><a href="mycart.html"><img src="images/login.png" class="rcontent"/></a>
+
+</div>
+</body>
+</html>

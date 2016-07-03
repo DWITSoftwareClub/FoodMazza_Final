@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>contactus</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="images/contact1.png" />
+<script type="text/javascript">
+function validata()
+{
+	var msg="";
+	if(f1.name.value=="")
+	{
+		msg=msg+"Name is Empty! ";
+	}
+	if(f1.mail.value=="")
+	{
+		msg=msg+"Mail adress is Empty! ";
+	}
+if(f1.number.value=="")
+	{
+		msg=msg+"Contact is Empty! ";
+		}
+alert(msg);
+}
+</script>
+</head>
+<body>
+<div id="social">
+<font class="contact" size="+1"><b>Welcome to Food Mazza</b></font>
+<a href="https://www.facebook.com/?_rdr" target="_blank"><img src="images\twit.gif" height="30px" width="30px" align="right"></a><a href="https://www.twitter.com" target="_blank"> <img src="images/fb.gif" height="30px" width="30px" align="right"></a></div>
+</div>
+<div id="company">
+<div id="companylogo">
+<a href="index.html"><img src="images\logo.png" height="110px" width="170px" align="center"></a>
+</div>
+<div id="companyico">
+
+</div>
+</div>
+<center>
+<div id="blank"></div>
+<div id="wrapper">
+<div class="info ">
+<b>Restaurent Recommender</b>
+</div>
+<center>
+<div class="register">
+<form action="three.html" method="post" name="f1">
+<table cellpadding="2px">
+						<tr>
+							<td>Name:</td><td><input class="name" type="textbox" placeholder="Type" name="name">&nbsp;</td>
+							<tr><td>
+							</td><td><select class="gender"><option>Price Range</option>
+                            <option>0-1500</option>
+                            <option>1500-3000</option>
+                            <option>3000-5000</option>
+                            <option>5000-7000</option>
+                            <option>7000-10000</option>
+                            </select></td></tr>
+						
+							<tr><td>
+                            
+							Range</td><td><input class="normal" type="email" placeholder="Near / Far" name="mail"></td></tr>
+							<tr><td>
+							Distance</td><td><input class="normal" type="number" placeholder="**** m" name="number">
+                            </td></tr>
+                        
+							</table>
+                            <br><br>
+                            
+                            <button class="text-sb" type="submit" onclick="validata()">Send</button>
+                          
+                            </form>
+		</div>
+
+
+</div>
+<a href="three.html" target="_blank">
+<h1>Map</h1>
+</a>
+</div>
+</body>
+</html>
